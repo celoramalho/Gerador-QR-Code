@@ -46,9 +46,18 @@ qr_gen.generate_qr_code_from_link("https://www.example.com")
 
 ## Dependências
 
-- `qrcode`
-- `pandas`
-- `numpy`
+## Dependências
+
+- `qrcode`: Para gerar QR Codes.
+- `qrcode.image.svg`: Suporte para QR Codes no formato SVG.
+- `pandas`: Para manipulação e processamento de dados.
+- `numpy`: Para operações numéricas.
+- `re`: Para operações com expressões regulares.
+- `unicodedata`: Para normalização de texto.
+- `os`: Para operações de sistema e manuseio de arquivos.
+- `pathlib`: Para manipulação de caminhos de arquivos.
+- `json`: Para manipulação de dados JSON.
+- `datetime`: Para manipulação de datas e horários.
 
 ## Licença
 
