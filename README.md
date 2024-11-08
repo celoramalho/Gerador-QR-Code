@@ -1,4 +1,3 @@
-```markdown
 # Gerador de QR Code
 
 Um gerador de QR Codes em Python que cria códigos a partir de arquivos Excel ou links individuais. Esta ferramenta é ideal para a geração em massa de QR Codes, especialmente para links, e também permite gerar QR Codes únicos para qualquer texto ou URL.
@@ -18,7 +17,7 @@ Clone o repositório e instale as dependências necessárias:
 git clone <repository_url>
 cd QR-Code-Generator
 pip install -r requirements.txt
-```
+
 
 ## Uso
 
