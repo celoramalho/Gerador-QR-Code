@@ -1,33 +1,33 @@
-# Gerador de QR Code
-[Read in English](README.md)
+# QR Code Generator
+[Read in Portuguese](README.pt-BR.md)
 
-Um gerador de QR Codes em Python que cria códigos a partir de arquivos Excel ou links individuais. Esta ferramenta é ideal para a geração em massa de QR Codes, especialmente para links, e também permite gerar QR Codes únicos para qualquer texto ou URL.
+A Python-based QR Code generator that creates codes from Excel files or individual links. This tool is ideal for batch QR Code generation, especially for links, and also allows generating unique QR Codes for any text or URL.
 
-## Funcionalidades
+## Features
 
-- **Integração com Excel**: Carrega um arquivo Excel com URLs e gera QR Codes individuais para cada link.
-- **Geração de QR Code Único**: Gera um QR Code a partir de um único link ou texto fornecido.
-- **Organização de Saída**: Salva os QR Codes em pastas organizadas e com nomes baseados na data e hora.
+- **Excel Integration**: Loads an Excel file with URLs and generates individual QR Codes for each link.
+- **Single QR Code Generation**: Generates a QR Code from a single provided link or text.
+- **Output Organization**: Saves QR Codes in organized folders with names based on date and time.
 
-## Instalação
+## Installation
 
-Clone o repositório e instale as dependências necessárias:
+Clone the repository and install the necessary dependencies:
 
 ```bash
 git clone <repository_url>
 cd QR-Code-Generator
 pip install -r requirements.txt
+```
 
+## Usage
 
-## Uso
+### Excel File
+Place your Excel file in the `/Planilha` folder. The spreadsheet must have at least two columns with the exact names:
 
-### Arquivo Excel
-Coloque seu arquivo Excel na pasta `/Planilha`. A planilha precisa ter pelo menos duas colunas com os nomes exatos:
+- **QRCode Name**: The name that will be used to save the QR Code.
+- **QRCode Link**: The link that will be transformed into a QR Code.
 
-- **Nome do QRCode**: Nome que será utilizado para salvar o QR Code.
-- **Link pro QRCode**: O link que será transformado em QR Code.
-
-#### Exemplo de uso
+#### Example Usage
 
 ```python
 from qr_code_generator import QRCodeGenerator
@@ -36,30 +36,27 @@ qr_gen = QRCodeGenerator()
 qr_gen.generate_qr_code_excel_file()
 ```
 
-### QR Code Único
+### Single QR Code
 
-Para gerar um QR Code único:
+To generate a single QR Code:
 
 ```python
 qr_gen.generate_qr_code_from_link("https://www.example.com")
 ```
 
-## Dependências
+## Dependencies
 
-## Dependências
+- `qrcode`: To generate QR Codes.
+- `qrcode.image.svg`: Support for QR Codes in SVG format.
+- `pandas`: For data manipulation and processing.
+- `numpy`: For numerical operations.
+- `re`: For regular expression operations.
+- `unicodedata`: For text normalization.
+- `os`: For system operations and file handling.
+- `pathlib`: For file path management.
+- `json`: For handling JSON data.
+- `datetime`: For date and time manipulation.
 
-- `qrcode`: Para gerar QR Codes.
-- `qrcode.image.svg`: Suporte para QR Codes no formato SVG.
-- `pandas`: Para manipulação e processamento de dados.
-- `numpy`: Para operações numéricas.
-- `re`: Para operações com expressões regulares.
-- `unicodedata`: Para normalização de texto.
-- `os`: Para operações de sistema e manuseio de arquivos.
-- `pathlib`: Para manipulação de caminhos de arquivos.
-- `json`: Para manipulação de dados JSON.
-- `datetime`: Para manipulação de datas e horários.
+## License
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT.
-```
+This project is licensed under the MIT License.
