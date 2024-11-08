@@ -55,5 +55,3 @@ qr_gen.generate_qr_code_from_link("https://www.example.com")
 
 Este projeto está licenciado sob a Licença MIT.
 ```
-
-Este arquivo está formatado para ser direto, informativo e visualmente organizado para facilitar a leitura e o uso.
