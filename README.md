@@ -1,5 +1,3 @@
-Aqui está o conteúdo formatado em Markdown para o arquivo `README.md`:
-
 ```markdown
 # Gerador de QR Code
 
