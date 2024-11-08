@@ -61,4 +61,3 @@ qr_gen.generate_qr_code_from_link("https://www.example.com")
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT.
-```
