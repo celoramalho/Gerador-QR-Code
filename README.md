@@ -6,7 +6,6 @@ Um gerador de QR Codes em Python que cria códigos a partir de arquivos Excel ou
 
 - **Integração com Excel**: Carrega um arquivo Excel com URLs e gera QR Codes individuais para cada link.
 - **Geração de QR Code Único**: Gera um QR Code a partir de um único link ou texto fornecido.
-- **Nomes de Arquivo Formatados**: Formata automaticamente os nomes dos arquivos, removendo caracteres especiais e acentos.
 - **Organização de Saída**: Salva os QR Codes em pastas organizadas e com nomes baseados na data e hora.
 
 ## Instalação
