@@ -1,4 +1,5 @@
 # Gerador de QR Code
+[Read in English](README.md)
 
 Um gerador de QR Codes em Python que cria códigos a partir de arquivos Excel ou links individuais. Esta ferramenta é ideal para a geração em massa de QR Codes, especialmente para links, e também permite gerar QR Codes únicos para qualquer texto ou URL.
 
